@@ -10,7 +10,12 @@
 <body>
     
 <header>
-
+<div class="m-4">
+        <div class="d-flex justify-content-between">
+            <a href="{{url('/')}}"> Home </a>
+            <a href="{{route('comics.index')}}"> Comic list </a>
+        </div>
+    </div>
 </header>
 
 <main>
